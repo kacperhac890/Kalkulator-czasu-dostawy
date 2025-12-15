@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { calculateRouteAnalysis } from './geminiService.ts';
 import { reverseGeocode, forwardGeocode, getAdvancedRouteDetails, getRouteShape } from './mapService';
-import { calculateLogisticsTime, LogisticsTime } from './utils/driverRules';
+import { calculateLogisticsTime, LogisticsTime } from './driverRules';
 import { RouteResult, RouteSegment, ColorConfig, SpeedConfig } from './types';
 import { SPEEDS, DEFAULT_COLORS, LABELS } from './constants';
 import { RouteChart } from './RouteChart';
