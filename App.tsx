@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { calculateRouteAnalysis } from './services/geminiService';
+import { calculateRouteAnalysis } from './services/geminiService.ts';
 import { reverseGeocode, forwardGeocode, getAdvancedRouteDetails, getRouteShape } from './services/mapService';
 import { calculateLogisticsTime, LogisticsTime } from './utils/driverRules';
 import { RouteResult, RouteSegment, ColorConfig, SpeedConfig } from './types';
