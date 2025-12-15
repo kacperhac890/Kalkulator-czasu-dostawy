@@ -4,11 +4,11 @@ import { reverseGeocode, forwardGeocode, getAdvancedRouteDetails, getRouteShape 
 import { calculateLogisticsTime, LogisticsTime } from './utils/driverRules';
 import { RouteResult, RouteSegment, ColorConfig, SpeedConfig } from './types';
 import { SPEEDS, DEFAULT_COLORS, LABELS } from './constants';
-import { RouteChart } from './components/RouteChart';
-import { SummaryCard } from './components/SummaryCard';
-import { LeafletMap } from './components/LeafletMap';
-import { SettingsModal } from './components/SettingsModal';
-import { SegmentList } from './components/SegmentList';
+import { RouteChart } from './RouteChart';
+import { SummaryCard } from './SummaryCard';
+import { LeafletMap } from './LeafletMap';
+import { SettingsModal } from './SettingsModal';
+import { SegmentList } from './SegmentList';
 import { Truck, Map as MapIcon, ArrowRight, AlertCircle, Loader2, Info, MapPin, MousePointerClick, Settings, Clock, Moon } from 'lucide-react';
 
 interface Coords {
